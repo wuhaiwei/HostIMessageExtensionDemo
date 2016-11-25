@@ -13,7 +13,41 @@
 		FD6C78FA1DE53E8D00563D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6C78F81DE53E8D00563D28 /* Main.storyboard */; };
 		FD6C78FC1DE53E8D00563D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6C78FB1DE53E8D00563D28 /* Assets.xcassets */; };
 		FD6C78FF1DE53E8D00563D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6C78FD1DE53E8D00563D28 /* LaunchScreen.storyboard */; };
+		FD6C790D1DE53F2800563D28 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6C790C1DE53F2800563D28 /* Messages.framework */; };
+		FD6C79111DE53F2800563D28 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6C79101DE53F2800563D28 /* MessagesViewController.m */; };
+		FD6C79141DE53F2800563D28 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6C79121DE53F2800563D28 /* MainInterface.storyboard */; };
+		FD6C79161DE53F2800563D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6C79151DE53F2800563D28 /* Assets.xcassets */; };
+		FD6C791A1DE53F2800563D28 /* MessageExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FD6C790A1DE53F2800563D28 /* MessageExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FD6C79201DE585D200563D28 /* 013.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6C791F1DE585D200563D28 /* 013.png */; };
+		FDB4F57B1DE7DA5F00E96691 /* ic_common_wanglibank.png in Resources */ = {isa = PBXBuildFile; fileRef = FDB4F57A1DE7DA5F00E96691 /* ic_common_wanglibank.png */; };
+		FDDA73BB1DE6CE3D00C989E8 /* MessageChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDA73B91DE6CE3D00C989E8 /* MessageChildVC.m */; };
+		FDDA73BC1DE6CE3D00C989E8 /* MessageChildVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDDA73BA1DE6CE3D00C989E8 /* MessageChildVC.xib */; };
+		FDDA73BE1DE6FD2D00C989E8 /* text.txt in Resources */ = {isa = PBXBuildFile; fileRef = FDDA73BD1DE6FD2D00C989E8 /* text.txt */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD6C79181DE53F2800563D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6C78E41DE53E8D00563D28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6C79091DE53F2800563D28;
+			remoteInfo = MessageExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD6C791E1DE53F2800563D28 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FD6C791A1DE53F2800563D28 /* MessageExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FD6C78EC1DE53E8D00563D28 /* HostIMessageExtensionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HostIMessageExtensionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +60,19 @@
 		FD6C78FB1DE53E8D00563D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD6C78FE1DE53E8D00563D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD6C79001DE53E8D00563D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6C790A1DE53F2800563D28 /* MessageExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessageExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6C790C1DE53F2800563D28 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		FD6C790F1DE53F2800563D28 /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		FD6C79101DE53F2800563D28 /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		FD6C79131DE53F2800563D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		FD6C79151DE53F2800563D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD6C79171DE53F2800563D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6C791F1DE585D200563D28 /* 013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 013.png; sourceTree = "<group>"; };
+		FDB4F57A1DE7DA5F00E96691 /* ic_common_wanglibank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_common_wanglibank.png; sourceTree = "<group>"; };
+		FDDA73B81DE6CE3D00C989E8 /* MessageChildVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageChildVC.h; sourceTree = "<group>"; };
+		FDDA73B91DE6CE3D00C989E8 /* MessageChildVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageChildVC.m; sourceTree = "<group>"; };
+		FDDA73BA1DE6CE3D00C989E8 /* MessageChildVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageChildVC.xib; sourceTree = "<group>"; };
+		FDDA73BD1DE6FD2D00C989E8 /* text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +83,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD6C79071DE53F2800563D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6C790D1DE53F2800563D28 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -43,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				FD6C78EE1DE53E8D00563D28 /* HostIMessageExtensionApp */,
+				FD6C790E1DE53F2800563D28 /* MessageExtension */,
+				FD6C790B1DE53F2800563D28 /* Frameworks */,
 				FD6C78ED1DE53E8D00563D28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				FD6C78EC1DE53E8D00563D28 /* HostIMessageExtensionApp.app */,
+				FD6C790A1DE53F2800563D28 /* MessageExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +137,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FD6C790B1DE53F2800563D28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD6C790C1DE53F2800563D28 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6C790E1DE53F2800563D28 /* MessageExtension */ = {
+			isa = PBXGroup;
+			children = (
+				FD6C791F1DE585D200563D28 /* 013.png */,
+				FDDA73BD1DE6FD2D00C989E8 /* text.txt */,
+				FDB4F57A1DE7DA5F00E96691 /* ic_common_wanglibank.png */,
+				FD6C790F1DE53F2800563D28 /* MessagesViewController.h */,
+				FD6C79101DE53F2800563D28 /* MessagesViewController.m */,
+				FD6C79121DE53F2800563D28 /* MainInterface.storyboard */,
+				FDDA73B81DE6CE3D00C989E8 /* MessageChildVC.h */,
+				FDDA73B91DE6CE3D00C989E8 /* MessageChildVC.m */,
+				FDDA73BA1DE6CE3D00C989E8 /* MessageChildVC.xib */,
+				FD6C79151DE53F2800563D28 /* Assets.xcassets */,
+				FD6C79171DE53F2800563D28 /* Info.plist */,
+			);
+			path = MessageExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,15 +173,34 @@
 				FD6C78E81DE53E8D00563D28 /* Sources */,
 				FD6C78E91DE53E8D00563D28 /* Frameworks */,
 				FD6C78EA1DE53E8D00563D28 /* Resources */,
+				FD6C791E1DE53F2800563D28 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FD6C79191DE53F2800563D28 /* PBXTargetDependency */,
 			);
 			name = HostIMessageExtensionApp;
 			productName = HostIMessageExtensionApp;
 			productReference = FD6C78EC1DE53E8D00563D28 /* HostIMessageExtensionApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FD6C79091DE53F2800563D28 /* MessageExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6C791B1DE53F2800563D28 /* Build configuration list for PBXNativeTarget "MessageExtension" */;
+			buildPhases = (
+				FD6C79061DE53F2800563D28 /* Sources */,
+				FD6C79071DE53F2800563D28 /* Frameworks */,
+				FD6C79081DE53F2800563D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessageExtension;
+			productName = MessageExtension;
+			productReference = FD6C790A1DE53F2800563D28 /* MessageExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
 
@@ -109,6 +212,11 @@
 				ORGANIZATIONNAME = wanglibank.com;
 				TargetAttributes = {
 					FD6C78EB1DE53E8D00563D28 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SX8PGCDPTD;
+						ProvisioningStyle = Automatic;
+					};
+					FD6C79091DE53F2800563D28 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = SX8PGCDPTD;
 						ProvisioningStyle = Automatic;
@@ -129,6 +237,7 @@
 			projectRoot = "";
 			targets = (
 				FD6C78EB1DE53E8D00563D28 /* HostIMessageExtensionApp */,
+				FD6C79091DE53F2800563D28 /* MessageExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +250,19 @@
 				FD6C78FF1DE53E8D00563D28 /* LaunchScreen.storyboard in Resources */,
 				FD6C78FC1DE53E8D00563D28 /* Assets.xcassets in Resources */,
 				FD6C78FA1DE53E8D00563D28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6C79081DE53F2800563D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB4F57B1DE7DA5F00E96691 /* ic_common_wanglibank.png in Resources */,
+				FD6C79201DE585D200563D28 /* 013.png in Resources */,
+				FDDA73BE1DE6FD2D00C989E8 /* text.txt in Resources */,
+				FDDA73BC1DE6CE3D00C989E8 /* MessageChildVC.xib in Resources */,
+				FD6C79161DE53F2800563D28 /* Assets.xcassets in Resources */,
+				FD6C79141DE53F2800563D28 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +279,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD6C79061DE53F2800563D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6C79111DE53F2800563D28 /* MessagesViewController.m in Sources */,
+				FDDA73BB1DE6CE3D00C989E8 /* MessageChildVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD6C79191DE53F2800563D28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD6C79091DE53F2800563D28 /* MessageExtension */;
+			targetProxy = FD6C79181DE53F2800563D28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FD6C78F81DE53E8D00563D28 /* Main.storyboard */ = {
@@ -174,6 +313,14 @@
 				FD6C78FE1DE53E8D00563D28 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FD6C79121DE53F2800563D28 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6C79131DE53F2800563D28 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -291,6 +438,32 @@
 			};
 			name = Release;
 		};
+		FD6C791C1DE53F2800563D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = SX8PGCDPTD;
+				INFOPLIST_FILE = MessageExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanglibank.HostIMessageExtensionApp.MessageExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD6C791D1DE53F2800563D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = SX8PGCDPTD;
+				INFOPLIST_FILE = MessageExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanglibank.HostIMessageExtensionApp.MessageExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -310,6 +483,16 @@
 				FD6C79051DE53E8D00563D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6C791B1DE53F2800563D28 /* Build configuration list for PBXNativeTarget "MessageExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6C791C1DE53F2800563D28 /* Debug */,
+				FD6C791D1DE53F2800563D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

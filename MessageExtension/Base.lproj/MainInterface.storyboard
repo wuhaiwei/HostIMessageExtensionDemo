@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Messages View Controller-->
+        <scene sceneID="7MM-of-jgj">
+            <objects>
+                <viewController id="ObA-dk-sSI" customClass="MessagesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qkL-Od-lgU"/>
+                        <viewControllerLayoutGuide type="bottom" id="n38-gi-rB5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="amo-qh-8Xn">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="amo-qh-8Xn" firstAttribute="top" secondItem="qkL-Od-lgU" secondAttribute="bottom" id="Cyn-TQ-Aj1"/>
+                            <constraint firstItem="amo-qh-8Xn" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leadingMargin" id="XZ5-qd-tUs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="amo-qh-8Xn" secondAttribute="trailing" id="mGU-Yg-paB"/>
+                            <constraint firstItem="n38-gi-rB5" firstAttribute="top" secondItem="amo-qh-8Xn" secondAttribute="bottom" id="vl6-yz-Mdp"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="528"/>
+                    <connections>
+                        <outlet property="bottomConstraint" destination="vl6-yz-Mdp" id="8Gt-oc-gjB"/>
+                        <outlet property="leftConstraint" destination="XZ5-qd-tUs" id="EK8-BL-ASw"/>
+                        <outlet property="rightConstraint" destination="mGU-Yg-paB" id="8Cg-Uf-uah"/>
+                        <outlet property="tableView" destination="amo-qh-8Xn" id="Who-6r-JX1"/>
+                        <outlet property="topConstraint" destination="Cyn-TQ-Aj1" id="h2x-Li-TPR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-256" y="59"/>
+        </scene>
+    </scenes>
+</document>
