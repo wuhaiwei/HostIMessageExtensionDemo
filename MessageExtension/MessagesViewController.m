@@ -112,6 +112,7 @@
         _bottomConstraint.constant = 0;
         _rightConstraint.constant = -15;
     }
+    [self.view setNeedsLayout];
     [self.view layoutIfNeeded];
 }
 
